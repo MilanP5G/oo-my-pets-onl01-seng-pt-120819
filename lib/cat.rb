@@ -1,4 +1,4 @@
 class Cat
-  attr_accessor :owner,
+  attr_accessor :owner
   
 end
