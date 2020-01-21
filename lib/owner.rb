@@ -3,14 +3,20 @@ class Owner
   def initialize(name)
     @name = name
     species
+    say_species
+  end 
+  
+  def name
+    @name
   end 
   
   def species
     @species = "human"
   end 
   
-  def name
-    @name
+  def say_species
+    self.species
   end 
+  
   
 end
