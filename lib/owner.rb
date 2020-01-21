@@ -3,6 +3,11 @@ class Owner
   
   def initialize(name)
     @name = name
+    species
+  end 
+  
+  def species
+    @species = "human"
   end 
   
   
