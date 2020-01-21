@@ -30,6 +30,8 @@ class Owner
   end
   
   def self.reset_all
+    @@all.delete 
+  end 
   
   
 end
