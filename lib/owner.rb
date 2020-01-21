@@ -61,6 +61,10 @@ class Owner
     pets = dogs + cats 
     pets.each { | pet | pet.mood = "nervous" }
     pets.each { | pet | pet.owner = nil }
+  end
+  
+  def list_pets
+    puts "I have #{@owner.dogs.count} dog(s), and #{@owner.cats.count} cat(s)."
   end 
   
   
