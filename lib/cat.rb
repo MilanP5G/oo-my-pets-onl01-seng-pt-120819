@@ -22,7 +22,6 @@ class Cat
     @@all
   end 
   
-  def 
     
   
 end
