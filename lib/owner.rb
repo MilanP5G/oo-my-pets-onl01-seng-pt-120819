@@ -1,9 +1,12 @@
 class Owner
   
+  @@all = [] 
+  
   def initialize(name)
     @name = name
     species
     say_species
+    @@all << self
   end 
   
   def name
@@ -17,6 +20,10 @@ class Owner
   def say_species
     return "I am a #{@species}."
   end 
+  
+  def self.all
+    @@all
+  end
   
   
 end
