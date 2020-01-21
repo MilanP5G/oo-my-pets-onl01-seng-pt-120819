@@ -7,7 +7,7 @@ class Owner
   end 
   
   def species
-    @species
+    puts "human"
   end 
   
   def name
